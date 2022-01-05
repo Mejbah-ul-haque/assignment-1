@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Russo One', sans-serif;  
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+
+h1{
+    color: rgb(54, 54, 54);
+    font-size: 55px;  
+    letter-spacing: .2rem;
+    border-left: 4px solid rgb(225, 78, 65);
+   padding-left: 15px;
+}
+.color-headline{
+    color: rgb(160, 86, 230);
+}
+h2{
+    color: rgb(5, 5, 5);
+    font-size: 40px;  
+    letter-spacing: .2rem;
+   padding-left: 15px;
+   text-align: center;
+   padding-bottom: 50px;
+}
+h3{
+    color: rgb(54, 54, 54);
+    font-size: 40px;  
+    letter-spacing: .2rem;
+   padding-left: 15px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 5);
+    font-size: 30px;  
+   padding-left: 15px;
+
+}
+p{
+    font-size: 1.5 rem;
+    color: rgb(110, 109, 109);
+    line-height: 1.8;
+}
+.half-width{
+    width: 50%;
+    padding-right: 10%;
+}
+.text-box{
+    padding-top: 8%;
+}
+.half-width img{
+    width: 100%;;
+}
+.img-box{
+    padding-left: 10%;
+}
+.button-link{
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(198, 43, 226), rgb(59, 3, 82));
+    padding: 15px 50px;
+    margin: 60px 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.button{
+    margin: 40px 0;
+}
+.square-box{
+    width: 33.33%;
+    background-color: seashell;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+section{
+    margin: 10%;
+}
+.lead-image{
+    padding-right: 5%;
+}
