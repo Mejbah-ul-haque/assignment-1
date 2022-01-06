@@ -41,6 +41,7 @@ h5{
     color: white;
     font-size: 17px;  
     font-weight: 400;
+    padding: 0px 20px;
 }
 p{
     font-size: 18px;
@@ -76,7 +77,6 @@ section{
 .square-box{
     background-color: seashell;
     margin-right: 30px;
-    padding: 20px;
     border-radius: 20px;
 }
 .square-box:nth-child(2){
@@ -87,25 +87,24 @@ section{
 }
 .rectangle-box{
     background-color: #480562d0;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 15px 40px;
+    padding: 5%;
     border-radius: 20px;
 }
 .rectangle-box:hover{
     background-color: #480562;
 }
-.rectangle-box h4{
-    color: white;
-    
-}
+
 .rectanlge-div{
     background-image: url(images/shapes/shape-3.png);
     background-repeat: no-repeat;
-    padding:  20px 20px 40px 40px;
+  
+    padding:  40px;
 }
 .work-headline{   
     padding-left: 80px;
+}
+.recent-work-code{
+    text-align: center;
 }
 .lead-image{
     width: 40%;
