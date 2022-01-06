@@ -8,19 +8,19 @@ body{
 }
 
 h1{
-    color: rgb(54, 54, 54);
+    color: rgb(107, 106, 106);
     font-size: 50px;  
     letter-spacing: .2rem;
-    border-left: 4px solid rgb(225, 78, 65);
+    border-left: 4px solid rgb(10, 10, 10);
    padding-left: 15px;
 }
 .color-headline{
-    color: rgb(160, 86, 230);
+    color: #480562;
 }
 h2{
     color: rgb(5, 5, 5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;  
-    letter-spacing: .2rem;
    padding-left: 15px;
    text-align: center;
 }
@@ -40,11 +40,13 @@ h4{
 }
 p{
     font-size: 18px;
-    color: rgb(110, 109, 109);
+    color: rgb(71, 70, 70);
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+section{
+    margin: 10%;
+}
 .half-width{
     width: 50%;
     padding-right: 5%;
@@ -72,11 +74,27 @@ p{
     margin-right: 30px;
     padding: 20px;
     border-radius: 20px;
+}
+.square-box:nth-child(2){
+    background-color: rgb(237, 250, 202);
+}
+.square-box:nth-child(3){
+    background-color: rgb(222, 253, 250);
+}
+.rectangle-box{
+    background-color: #480562d0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.rectangle-box:hover{
+    background-color: #480562;
+}
+.rectangle-box h4{
+    color: white;
+}
 
-}
-section{
-    margin: 10%;
-}
 .lead-image{
     width: 40%;
     padding-right: 5%;
@@ -87,4 +105,18 @@ section{
 }
 .logo{
     width: 50%;
+}
+footer{
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    padding: 20px;
+}
+.white-color{
+    color: snow;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.footer-span{
+    color: tomato;
 }
